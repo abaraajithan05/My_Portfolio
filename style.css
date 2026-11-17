@@ -281,6 +281,15 @@ li {
     line-height: 1.6;
 }
 
+.experience-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
 /* Contact Section */
 
 .contact-card {
