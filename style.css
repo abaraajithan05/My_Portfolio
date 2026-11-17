@@ -1,0 +1,423 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f7f9;
+    color: #222;
+}
+
+/* HERO SECTION */
+
+header {
+    background-color: #0b1f33;
+    color: white;
+    padding: 70px 10%;
+}
+
+.hero-content {
+    max-width: 900px;
+}
+
+.greeting {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+header h1 {
+    font-size: 52px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    color: white;
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.hero-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero-buttons a {
+    display: inline-block;
+    background-color: white;
+    color: #0b1f33;
+    padding: 12px 22px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-buttons a:hover {
+    background-color: #dbe8f2;
+}
+
+
+/* NAVIGATION */
+
+nav {
+    background-color: white;
+    padding: 20px 10%;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0b1f33;
+    margin-right: 30px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #2563eb;
+}
+
+/* MAIN CONTENT */
+
+main {
+    width: 80%;
+    max-width: 1100px;
+    margin: 50px auto;
+}
+
+section {
+    background-color: white;
+    padding: 35px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #0b1f33;
+    font-size: 30px;
+}
+
+h3 {
+    color: #1d5c91;
+}
+
+p {
+    line-height: 1.7;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* SKILLS SECTION */
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.skill-card {
+    background-color: #f4f7f9;
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 5px solid #1d5c91;
+    transition: transform 0.3s ease;
+}
+
+.skill-card h3 {
+    color: #0b1f33;
+    margin-top: 0;
+    font-size: 21px;
+}
+
+.skill-card p {
+    color: #555;
+    line-height: 2;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+@media (max-width: 700px) {
+
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/* PROJECT SECTION */
+
+.section-description {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.project-card {
+    background-color: #f4f7f9;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-image {
+    height: 250px;
+    background-color: #0b1f33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.project-content {
+    padding: 25px;
+}
+
+.project-content h3 {
+    color: #0b1f33;
+    font-size: 20px;
+}
+
+.project-content p {
+    color: #555;
+    line-height: 1.7;
+}
+
+.project-tags {
+    margin-top: 20px;
+}
+
+.project-tags span {
+    display: inline-block;
+    background-color: #dceaf5;
+    color: #0b1f33;
+    padding: 7px 12px;
+    margin: 4px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+@media (max-width: 700px) {
+
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+.project-image {
+    height: 250px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+/* Experience Section */
+
+.experience-card {
+    background-color: #f4f7fa;
+    padding: 35px;
+    border-radius: 12px;
+    border-left: 5px solid #0b1f33;
+    margin-top: 25px;
+}
+
+.experience-card h3 {
+    color: #0b1f33;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.experience-card h4 {
+    color: #526579;
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+.experience-date {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.experience-card p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.experience-card ul {
+    padding-left: 22px;
+    margin-top: 15px;
+}
+
+.experience-card li {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+/* Contact Section */
+
+.contact-card {
+    background-color: #f4f7fa;
+    padding: 30px;
+    border-radius: 12px;
+    border-left: 5px solid #0b1f33;
+    margin-top: 25px;
+}
+
+.contact-card p {
+    line-height: 1.7;
+}
+
+.contact-details {
+    margin-top: 20px;
+}
+
+.contact-details p {
+    margin-bottom: 15px;
+}
+
+.contact-details a {
+    color: #0b1f33;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile Responsive Design */
+
+@media (max-width: 768px) {
+     header {
+        padding: 50px 6%;
+    }
+    
+    header h1 {
+        font-size: 36px;
+    }
+    
+    header h2 {
+        font-size: 21px;
+    }
+    
+    .hero-description {
+        font-size: 16px;
+    }
+    
+    .experience-card {
+        padding: 25px;
+    }
+
+    .experience-card h3 {
+        font-size: 20px;
+    }
+
+    .experience-card h4 {
+        font-size: 16px;
+    }
+
+    .experience-card p,
+    .experience-card li {
+        font-size: 15px;
+    }
+}
+
+/* Contact Links */
+
+.contact-details a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.contact-details a:hover {
+    color: #0b1f33;
+    text-decoration: underline;
+}
+
+/* Contact Details */
+
+.contact-details {
+    margin-top: 20px;
+}
+
+.contact-details p {
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* Contact Card Hover Effect */
+
+.contact-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Footer Styling */
+
+footer {
+    background-color: #0b1f33;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 8px 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+    nav {
+        padding: 15px 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    nav a {
+        margin-right: 0;
+        font-size: 14px;
+    }
+}
