@@ -4,16 +4,6 @@
 <head>
     <title>Abaraajithan Ramalingam | Electrical & Electronic Engineer</title>
     <meta name="description" content="Portfolio of Abaraajithan Ramalingam, Electrical & Electronic Engineer with experience in renewable energy, solar PV systems, battery management and embedded electronics.">
-    <meta property="og:title" content="Abaraajithan Ramalingam | Electrical & Electronic Engineer">
-    <meta property="og:description" content="Explore my engineering portfolio, professional experience and projects in renewable energy, solar PV, battery management and embedded electronics.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://abaraajithan05.github.io/My_Portfolio/">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Abaraajithan Ramalingam | Electrical & Electronic Engineer">
-    <meta name="twitter:description" content="Electrical engineering portfolio featuring renewable energy, solar PV, electrical design and energy storage projects.">
-    <!-- Google Search Console verification -->
-    <meta name="google-site-verification" content="WV2b1UYN6YqnQIglanFtTK_tQd-MxnlodryHqkyo9Gk" />
-    
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -33,11 +23,13 @@
             <p class="hero-description">
                 Renewable Energy | Solar PV | Electrical Design | Energy Storage
             </p>
-            
+
             <div class="hero-buttons">
+
                 <a href="#projects">View My Projects</a>
+
                 <a href="#contact">Contact Me</a>
-                <a href="Abaraajithan_Ramalingam_CV.pdf" download>Download CV</a>
+
             </div>
 
         </div>
@@ -159,10 +151,28 @@
                 <h3>Battery Management System for Electric Vehicles</h3>
                 
                 <p>
-                    Developed an Arduino-based Battery Management System for
-                    electric vehicles using CAN Bus communication to monitor
-                    battery parameters and support battery management.
+                    Developed an Arduino-based Battery Management System prototype
+                    using CAN Bus communication to monitor battery voltage, current
+                    and temperature, estimate State of Charge (SoC), and display
+                    battery parameters in real time. The system uses Arduino UNO,
+                    MCP2515 CAN modules, voltage and current sensors, and a DHT11
+                    temperature sensor.
                 </p>
+                
+                <!-- SYSTEM ARCHITECTURE -->
+                 <div class="project-architecture">
+                    <h4>System Architecture</h4>
+                    <a href="images/bms-system-architecture.png" target="_blank">
+                    <img src="images/bms-system-architecture.png"
+                     alt="Battery Management System architecture using CAN Bus">
+                     </a>
+                    </div>
+                    <p class="project-note">
+                        <strong>Proposed Enhancement:</strong> An Arduino-controlled relay can
+                        automatically disconnect the load when abnormal voltage, current or
+                        temperature conditions are detected.
+                    </p>
+
                 
                 <div class="project-tags">
                     <span>Arduino</span>
