@@ -497,3 +497,19 @@ html {
 .projects-container .project-card:last-child .project-image {
     background-color: #eef2f6;
 }
+
+/* ABOUT SECTION PARAGRAPH */
+
+#about p {
+    max-width: 950px;
+    line-height: 1.8;
+    text-align: justify;
+    margin: 0;
+}
+
+/* JUSTIFIED ALIGNMENT FOR PROJECT DESCRIPTIONS */
+
+.project-content > p {
+    text-align: justify;
+    line-height: 1.7;
+}
